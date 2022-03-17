@@ -1,0 +1,243 @@
+* {
+  /* border: 1px solid black; */
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+/* header */
+
+header {
+  height: auto;
+  background: #1f2937;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.header_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 20px 64px 20px;
+  padding: 0 20px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.logo {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+.logo_text {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.header_content {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0px auto 64px auto;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.description {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.secondery_text {
+  font-size: 18px;
+  color: #e5e7eb;
+  max-width: 400px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  max-width: 350px;
+  margin-bottom: 10px;
+}
+
+button {
+  border: none;
+  background-color: #3882f6;
+  border-radius: 6px;
+  color: #f9faf8;
+  height: 30px;
+  width: 120px;
+}
+
+.header_content img {
+  height: 224px;
+}
+
+main {
+  flex-grow: 1;
+}
+
+/* illustrations section */
+
+.illustrations_section {
+  height: auto;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.info {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #1f2937;
+  margin-bottom: 15px;
+  padding: 20px 20px;
+}
+
+.illustrations {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.illustration {
+  margin: 20px;
+  padding: 5px;
+}
+
+.illustration img {
+  height: 150px;
+  width: 150px;
+  border: 3px solid #3882f6;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+.image_description {
+  font-size: 16px;
+  color: #1f2937;
+  text-align: center;
+  width: 150px;
+}
+
+/* quote section */
+
+.quote_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  background: #e5e7eb;
+  margin-bottom: 10px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  padding: 20px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.author {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: right;
+  padding: 20px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+/* sign up section */
+
+.sign_up_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 20px 40px;
+}
+
+.sign_up {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: #3882f6;
+  height: 100px;
+  width: 100%;
+  max-width: 1000px;
+  border-radius: 6px;
+  padding: 30px 60px;
+}
+
+.sign_up_header {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.sign_up_secondery_text {
+  font-size: 16px;
+  color: #e5e7eb;
+}
+
+.sign_up div {
+  height: 100%;
+}
+
+.sign_up div button {
+  border: 1px solid #f9faf8;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #1f2937;
+  min-height: 72px;
+}
+
+.copyright {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-align: center;
+}
